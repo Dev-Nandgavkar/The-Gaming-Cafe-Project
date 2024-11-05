@@ -209,7 +209,44 @@ header.sticky ul{
     background-clip: text;
 }
 
-/* 1:02:56 */
+.slider_text{
+    max-width: 600px;
+    min-width: 600px;
+    margin-bottom: 1.5rem;
+    color: #adb7be;
+}
+
+.d_starting{
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 600;
+}
+
+.d_val{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: var(--title-font);
+    background: linear-gradient(0deg, #888888 0%, #fff 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.d_period{
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.d-cur{
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+/* 1:07:18 */
 
 
 
