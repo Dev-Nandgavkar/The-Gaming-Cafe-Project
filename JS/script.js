@@ -55,5 +55,31 @@ $('.comentslick').slick({
             }
         }
     ]
-})
+});
+
+
+// Question Section 
+
+document.getElementById('accordionContainer').addEventListener('click',()=>{
+    let target = event.target;
+
+    // Check if clicked element is an accodion header
+    if(target.classList.contains("accodion-header")){
+        let section = target.nextElementSibling;
+
+        // Toggle Active class to Trigger transition 
+        section.classList.toggle('active');
+        target.classList.toggle('active'); // For the icon change
+
+        // Hide Other Section 
+        let allsection = document.querySelectorAll('.accodion-section-content');
+
+        allsection.forEach(function(otherSection){
+            if(otherSection !== section && otherSection.classList.contains('active')){
+                otherSection.classList.remove("active");
+                otherSection.previousElementSibling.classList.remove("active"); //Remove Icon from active state
+            }
+        });
+    }
+});
 
