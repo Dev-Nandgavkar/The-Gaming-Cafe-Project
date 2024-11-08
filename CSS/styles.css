@@ -745,7 +745,94 @@ header.sticky ul{
 
 /* Footer Section  */
 
+footer{
+    background: rgba(255, 255, 255, 0.025);
+    padding: 70px 0 0 0;
+    font-size: 15px;
+    color: #adb7be;
+}
 
+footer p{
+    line-height: 1.8em;
+}
+
+footer ul li{
+    margin: 3px 0;
+}
+
+footer ul li:hover{
+    color: var(--secondary-color);
+    transition: 0.3s;
+}
+
+.widget h5{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--title-font);
+}
+
+/* .widget small{
+    display: block;
+    text-align: center;
+} */
+
+footer form{
+    position: relative;
+    width: 100%;
+}
+
+footer form input{
+    width: 100%;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 10px;
+    border-radius: 80px 80px 0 80px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px 0 rgba(255, 255, 255, 0.05)
+}
+
+footer form button{
+    right: 0;
+    padding: 60px;
+    font-size: 18px !important;
+    width: 80px;
+    height: 100%;
+    border-radius: 80px 80px 0 80px !important;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-icons a{
+    background-color: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a i{
+    color: var(--secondary-color);
+}
+
+.social-icons a:hover{
+    background-color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.subfooter{
+    padding: 20px 0;
+    margin-top: 60px;
+    border-top: 1px solid #333;
+}
+
+
+/* 2:35:26  */
 
 
 
