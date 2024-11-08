@@ -78,7 +78,7 @@ document.getElementById('accordionContainer').addEventListener('click',()=>{
 
         allsection.forEach(function(otherSection){
             if(otherSection !== section && otherSection.classList.contains('active')){
-                otherSection.classList.remove("active");
+                otherSection.classList.remove("active");  // Close previous Question
                 otherSection.previousElementSibling.classList.remove("active"); //Remove Icon from active state
             }
         });

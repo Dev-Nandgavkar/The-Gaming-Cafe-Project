@@ -1,211 +1,210 @@
 @media screen and (max-width: 1130px) {
-    .logo_main{
-        display: none !important;
-    }
+  .logo_main {
+    display: none !important;
+  }
 
-    .logo_mobile{
-        display: block !important;
-    }
+  .logo_mobile {
+    display: block !important;
+  }
 
-    .header_menu{
-        position: absolute !important;
-        left: 0;
-        display: flex;
-        align-items: flex-start !important;
-        flex-direction: column !important;
-        gap: 1rem !important;
-        top: 0 ;
-        left: -250px;
-        background-color: #252629 !important;
-        padding: 30px !important;
-        width: 250px !important;
-        height: 100vh !important;
-        transition: left 0.3s ease !important;
-    }
+  .header_menu {
+    position: absolute !important;
+    left: 0;
+    display: flex;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+    top: 0;
+    left: -250px;
+    background-color: #252629 !important;
+    padding: 30px !important;
+    width: 250px !important;
+    height: 100vh !important;
+    transition: left 0.3s ease !important;
+  }
 
-    header.sticky .header_menu{
-        transition: left 0.3s ease !important;
-    }
+  header.sticky .header_menu {
+    transition: left 0.3s ease !important;
+  }
 
-    header ul li::before{
-        display: none;
-    }
+  header ul li::before {
+    display: none;
+  }
 
-    .menu_side_area{
-        margin-right: 15px !important;
-    }
+  .menu_side_area {
+    margin-right: 15px !important;
+  }
 
-    .menu_side_area a{
-        margin-right: 20px !important;
-    }
+  .menu_side_area a {
+    margin-right: 20px !important;
+  }
 
-    .menu_side_area i{
-        display: block !important;
-        font-size: 22px !important;
-    }
+  .menu_side_area i {
+    display: block !important;
+    font-size: 22px !important;
+  }
 }
 
 /* For Mobile  */
 
 @media screen and (max-width: 550px) {
-    header .transparent{
-        padding: 30px 10px !important;
-    }
-    
-    .header.sticky{
-        padding: 10px 0 !important;
-    }
+  header .transparent {
+    padding: 30px 10px !important;
+  }
 
-    .swiper-slide{
-        height: 70vh !important;
-    }
+  .header.sticky {
+    padding: 10px 0 !important;
+  }
 
-    .con_data h1{
-        font-size: 35px !important;
-    }
+  .swiper-slide {
+    height: 70vh !important;
+  }
 
-    .d_val{
-        font-size: 35px !important;
-    }
+  .con_data h1 {
+    font-size: 35px !important;
+  }
 
-    .slider_text{
-        max-width: 400px !important;
-        min-width: 400px !important;
-        font-size: 15px !important;
-    }
+  .d_val {
+    font-size: 35px !important;
+  }
 
-    .swiper-button-prev,
-    .swiper-button-next{
-        display: center !important;
-    }
+  .slider_text {
+    max-width: 400px !important;
+    min-width: 400px !important;
+    font-size: 15px !important;
+  }
 
-    .p_de_cont{
-        flex-wrap: wrap !important;
-        gap: 2rem !important;
-        text-align: center !important;
-    }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: center !important;
+  }
 
-    /* Game Cards  */
+  .p_de_cont {
+    flex-wrap: wrap !important;
+    gap: 2rem !important;
+    text-align: center !important;
+  }
 
-    .game_bg{
-        padding: 40px !important;
-    }
+  /* Game Cards  */
 
-    .game_bg img{
-        display: none !important;
-    }
+  .game_bg {
+    padding: 40px !important;
+  }
 
-    .game_bg h2{
-        font-size: 35px !important;
-    }
+  .game_bg img {
+    display: none !important;
+  }
 
-    .game_bg .w-50{
-        width: 100% !important;
-    }
+  .game_bg h2 {
+    font-size: 35px !important;
+  }
 
-    /* Server Locations  */
+  .game_bg .w-50 {
+    width: 100% !important;
+  }
 
-    .s-locations .flex{ 
-        flex-wrap: wrap !important;
-    }
+  /* Server Locations  */
 
-    .s-locations .w-50{
-        width: 100% !important;
-    }
+  .s-locations .flex {
+    flex-wrap: wrap !important;
+  }
 
-    .s-locations h2{
-        font-size: 35px !important;
-    }
+  .s-locations .w-50 {
+    width: 100% !important;
+  }
 
-    /* Game Cards  */
+  .s-locations h2 {
+    font-size: 35px !important;
+  }
 
-    .game-cards .flex-sb:first-child{
-        flex-direction: column !important;
-        align-items: flex-start !important;
-    }
+  /* Game Cards  */
 
-    .game-cards .flex-sb h2{
-        font-size: 40px !important;
-    }
+  .game-cards .flex-sb:first-child {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
 
-    .game-cards .flex-sb div:nth-child(2){
-        margin-top: 1rem !important;
-    }
+  .game-cards .flex-sb h2 {
+    font-size: 40px !important;
+  }
 
-    .gallary-item{
-        width: 100% !important;
-    }
+  .game-cards .flex-sb div:nth-child(2) {
+    margin-top: 1rem !important;
+  }
 
-    /* Any Questions Section  */
+  .gallary-item {
+    width: 100% !important;
+  }
 
-    #accordionContainer{
-        flex-direction: column !important;
-        gap: 0 !important;
-    }
+  /* Any Questions Section  */
 
-    #accordionContainer .w-50{
-        width: 100% !important;
-    }
+  #accordionContainer {
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
 
-    .accodion-section-title{
-        height: auto !important;
-    }
+  #accordionContainer .w-50 {
+    width: 100% !important;
+  }
 
-    /* Download Section  */
+  .accodion-section-title {
+    height: auto !important;
+  }
 
-    .dw-img{
-        display: none !important;
-    }
+  /* Download Section  */
 
-    .downloadbg{
-        padding: 40px !important;
-    }
+  .dw-img {
+    display: none !important;
+  }
 
-    .downloadbg .w-50{
-        width: 100% !important;
-    }
+  .downloadbg {
+    padding: 40px !important;
+  }
 
-    .downloadbg h2{
-        font-size: 35px !important;
-    }
+  .downloadbg .w-50 {
+    width: 100% !important;
+  }
 
-    /* Payment Method Section  */
+  .downloadbg h2 {
+    font-size: 35px !important;
+  }
 
-    .paymentmethods .flex-sb{
-        flex-direction: column !important;
-        align-items: flex-start !important;
-    }
+  /* Payment Method Section  */
 
-    .paymentmethods .gap-15{
-        flex-wrap: wrap !important;
-        margin-top: 1rem !important;
-        justify-content: center !important;
-    }
+  .paymentmethods .flex-sb {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
 
-    .py-img{
-        width: 29% !important;
-    }
+  .paymentmethods .gap-15 {
+    flex-wrap: wrap !important;
+    margin-top: 1rem !important;
+    justify-content: center !important;
+  }
 
-    .img-fluid{
-        width: 100% !important;
-        height: 100% !important;
-        object-fit: contain !important;
-    }
+  .py-img {
+    width: 29% !important;
+  }
 
-    /* Footer  */
+  .img-fluid {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+  }
 
-    footer .flex-left{
-        flex-direction: column !important;
-    }
+  /* Footer  */
 
-    footer .w-33,
-    footer .w-66,
-    footer .w-50{
-        width: 100% !important;
-    }
+  footer .flex-left {
+    flex-direction: column !important;
+  }
 
-    .subfooter .flex{
-        flex-direction: column !important;
-    }
+  footer .w-33,
+  footer .w-66,
+  footer .w-50 {
+    width: 100% !important;
+  }
 
+  .subfooter .flex {
+    flex-direction: column !important;
+  }
 }
