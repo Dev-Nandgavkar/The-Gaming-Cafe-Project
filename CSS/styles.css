@@ -716,7 +716,34 @@ header.sticky ul{
 
 
 
-/* 2:17:32 */
+/* Payment Section  */
+
+.paymentmethods{
+    position: relative;
+    padding-bottom: 150px;
+}
+
+.paymentmethods h2{
+    font-size: 50px;
+    line-height: 1em;
+    text-transform: unset;
+}
+
+.py-img{
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fluid{
+    width: 70px;
+}
+
+
+/* Footer Section  */
 
 
 
