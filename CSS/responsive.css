@@ -46,4 +46,165 @@
 }
 
 
-/* 2:41:53 */
+@media screen and (max-width: 550px) {
+    header.transparent{
+        padding: 30px 10px;
+    }
+    
+    .header.sticky{
+        padding: 10px 0;
+    }
+
+    .swiper-slide{
+        height: 70vh;
+    }
+
+    .con_data h1{
+        font-size: 35px;
+    }
+
+    .d-val{
+        font-size: 35px;
+    }
+
+    .slider_text{
+        max-width: 400px;
+        min-width: 400px;
+        font-size: 15px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: center;
+    }
+
+    .p_de_cont{
+        flex-wrap: wrap;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    /* Game Cards  */
+
+    .game_bg{
+        padding: 40px;
+    }
+
+    .game_bg img{
+        display: none;
+    }
+
+    .game_bg h2{
+        font-size: 35px;
+    }
+
+    .game_bg .w-50{
+        width: 100% !important;
+    }
+
+    /* Server Locations  */
+
+    .s-locations .flex{
+        flex-wrap: wrap !important;
+    }
+
+    .s-locations .w-50{
+        width: 100% !important;
+    }
+
+    .s-locations h2{
+        font-size: 35px;
+    }
+
+    /* Game Cards  */
+
+    .game-cards .flex-sb:first-child{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .game-cards .flex-sb h2{
+        font-size: 40px;
+    }
+
+    .game-cards .flex-sb div:nth-child(2){
+        margin-top: 1rem;
+    }
+
+    .gallary-item{
+        width: 100%;
+    }
+
+    /* Any Questions Section  */
+
+    #accordionContainer{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #accordionContainer .w-50{
+        width: 100% !important;
+    }
+
+    .accodion-section-title{
+        height: auto;
+    }
+
+    /* Download Section  */
+
+    .dw-img{
+        display: none;
+    }
+
+    .downloadbg{
+        padding: 40px;
+    }
+
+    .downloadbg .w-50{
+        width: 100%;
+    }
+
+    .downloadbg h2{
+        font-size: 35px;
+    }
+
+    /* Payment Method Section  */
+
+    .paymentmethods .flex-sb{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .paymentmethods .gap-15{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .py-img{
+        width: 29%;
+    }
+
+    .img-fluid{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /* Footer  */
+
+    footer .flex-left{
+        flex-direction: column;
+    }
+
+    footer .w-33,
+    footer .w-66,
+    footer .w-50{
+        width: 100% !important;
+    }
+
+    .subfooter .flex{
+        flex-direction: column;
+    }
+
+}
