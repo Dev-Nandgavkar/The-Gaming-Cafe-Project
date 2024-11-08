@@ -1,3 +1,5 @@
+// Nav Bar Sticky 
+
 const mainnav = document.querySelector('.header');
 
 window.addEventListener('scroll', ()=>{
@@ -83,3 +85,22 @@ document.getElementById('accordionContainer').addEventListener('click',()=>{
     }
 });
 
+
+// Header Menu 
+
+function toggleMenu(){
+    let menu = document.querySelector('.header_menu');
+    let barsicon = document.querySelector('.menu_side_area i');
+
+    // Toggle Left Position to show & hide the Menu 
+    menu.style.left = menu.style.left === '0px' ? '-250px' : '0px';
+
+    // Toggle Class Names btw "fa-bars" & "fa-xmark"
+    if(barsicon.classList.contains('fa-bars')){
+        barsicon.classList.remove("fa-bars");
+        barsicon.classList.add("fa-xmark");
+    } else {
+        barsicon.classList.remove("fa-xmark");
+        barsicon.classList.add("fa-bars");
+    }
+}

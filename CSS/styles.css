@@ -58,7 +58,7 @@ header ul li a{
     font-size: 15px;
 }
 
-header ul li:before{
+header ul li::before{
     content: counter(serial-counter);
     counter-increment: serial-counter;
     position: absolute;
@@ -832,7 +832,7 @@ footer form button{
 }
 
 
-/* 2:35:26  */
+
 
 
 

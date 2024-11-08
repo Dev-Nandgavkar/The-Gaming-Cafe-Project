@@ -1,0 +1,49 @@
+@media screen and (max-width: 1130px) {
+    .logo_main{
+        display: none;
+    }
+
+    .logo_mobile{
+        display: block;
+    }
+
+    .header_menu{
+        position: absolute;
+        left: 0;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+        top: 0;
+        left: -250px;
+        background-color: #252629;
+        padding: 30px;
+        width: 250px;
+        height: 100vh;
+        transition: left 0.3s ease;
+    }
+
+    header.sticky .header_menu{
+        transition: left 0.3s ease;
+    }
+
+    header ul li::before{
+        display: none;
+    }
+
+    .menu_side_area{
+        margin-right: 15px;
+    }
+
+    .menu_side_area a{
+        margin-right: 20px;
+    }
+
+    .menu_side_area i{
+        display: block !important;
+        font-size: 22px;
+    }
+}
+
+
+/* 2:41:53 */
