@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header Footer Test</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="CSS/ezz.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+
+    <!-- For Icons  -->
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+
+    <!-- For Animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
+    />
+  </head>
+  <body>
+    <header class="transparent header p-relative">
+      <div class="container">
+        <div class="flex flex-sb">
+          <!-- Logo  -->
+          <div id="logo">
+            <a href="/">
+              <img src="Images/logo.png" alt="logo" class="logo_main" />
+              <img
+                src="Images/logo-mobile.png"
+                alt="logo2"
+                class="logo_mobile"
+              />
+            </a>
+          </div>
+
+          <!-- Nav Menu  -->
+          <ul class="flex gap-2 header_menu">
+            <li><a href="/" class="menu-item">Home</a></li>
+            <li><a href="/" class="menu-item">Game Servers</a></li>
+            <li><a href="/" class="menu-item">Locations</a></li>
+            <li><a href="/" class="menu-item">Support</a></li>
+            <li><a href="/" class="menu-item">News</a></li>
+            <li><a href="/" class="menu-item">Company</a></li>
+            <li><a href="/" class="menu-item">More Pages</a></li>
+          </ul>
+
+          <!-- Button  -->
+          <div class="menu_side_area flex gap-1">
+            <a href="/" class="btn">Get Hosting</a>
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="hmt"></div>
+
+    <footer>
+      <div class="container">
+        <div class="flex gap-2 flex-left">
+
+          <!-- Main Footer  -->
+           
+          <div class="w-33">
+            <img src="Images/logo.png" alt="logo" data-aos="fade-right" />
+            <p class="mt-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              adipisci, numquam eos recusandae delectus maiores tenetur minima
+              enim explicabo? Nemo omnis culpa perferendis unde eligendi
+              consequuntur sint laudantium labore facere!
+            </p>
+          </div>
+          <div class="w-33">
+            <div class="flex flex-left gap-2">
+              <div class="w-66">
+                <div class="widget">
+                  <h5 class="mb-1">Game Server</h5>
+                  <ul>
+                    <li><a href="#">Thunder and City</a></li>
+                    <li><a href="#">Mystic Racing Z</a></li>
+                    <li><a href="#">Silent Wrath</a></li>
+                    <li><a href="#">Funk Dungeon</a></li>
+                    <li><a href="#">Galactic Odyssey</a></li>
+                    <li><a href="#">Warfare Legends</a></li>
+                    <li><a href="#">Raceway Revolution</a></li>
+                    <li><a href="#">Starborne Odyssey</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-66">
+                <div class="widget">
+                  <h5 class="mb-1">Pages</h5>
+                  <ul>
+                    <li><a href="#">Game Server</a></li>
+                    <li><a href="#">Knowlegebase</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Affliates</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">News</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-33">
+            <div class="widget">
+              <h5 class="mb-1">Newsletter</h5>
+              <form
+                action="blank.php"
+                class="form-dark"
+                method="post"
+                id="form_subscribe"
+              >
+                <div class="text-center" data-aos="fade-left">
+                  <input
+                    type="text"
+                    id="txt_subscribe"
+                    name="txt_subscribe"
+                    class="form-control"
+                    placeholder="Enter Your Email"
+                  />
+                  <button class="btn_2 p-absolute">$</button>
+                </div>
+              </form>
+
+              <small>Your Email is safe with us. We don't spam.</small>
+              <div class="widget mt-2">
+                <h5>Follow Us On</h5>
+                <div class="social-icons flex gap-1 mt-1">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-discord"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lower Footer  -->
+
+      <div class="subfooter">
+        <div class="container">
+          <div class="flex flex-sb">
+            <div>Copyright &copy; 2024 - Playhost by Dev Nandgavkar</div>
+            <ul class="menu-simple flex gap-2">
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 150,
+        duration: 1250,
+        once: true,
+      });
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+      integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+      integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="JS/script.js"></script>
+
+  </body>
+</html>
