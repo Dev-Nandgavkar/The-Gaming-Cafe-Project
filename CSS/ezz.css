@@ -5,7 +5,7 @@
   color: inherit;
 }
 
-:root {
+/* :root {
   --title-font: "Oxanium", Helvetica, Arial, sans-serif;
   --body-font: "Manrope", Helvetica, Arial, sans-serif;
   --border-default: solid 1px rgba(30, 30, 30, 1);
@@ -23,7 +23,36 @@
   --secondary-color-rgb: 106, 121, 250;
   --tertiary-color: #e615af;
   --tertiary-color-rgb: rgba(230, 21, 175, 1);
+} */
+
+:root {
+  --title-font: "Oxanium", Helvetica, Arial, sans-serif;
+  --body-font: "Manrope", Helvetica, Arial, sans-serif;
+  /* --border-default: solid 1px rgba(85, 20, 20, 1); */
+  --border-default: solid 1px rgba(30, 30, 30, 1);
+  /* --bg-color-even: #e8e8e8;
+  --bg-color-odd: #f4f4f4; */
+  /* --bg-dark-1: #473232; */
+  --bg-dark-1: #1e1f22;
+  --bg-dark-1-rgb: 30, 31, 34;
+  --bg-dark-2: #252629;
+  --bg-dark-3: #303030;
+  --bg-color-even: #fdecec;
+  --bg-color-odd: #ffe6e6;
+  /* --bg-dark-1: #5e1f1f;
+  --bg-dark-1-rgb: 94, 31, 31;
+  --bg-dark-2: #7d2c2c;
+  --bg-dark-3: #a83a3a; */
+  --body-font-color: #8a4a4a;
+  --dark-body-font-color: #f5b6b6;
+  --primary-color: #d82b2b;
+  --primary-color-rgb: 216, 43, 43;
+  --secondary-color: #fa4d4d;
+  --secondary-color-rgb: 250, 77, 77;
+  --tertiary-color: #e61e4f;
+  --tertiary-color-rgb: rgba(230, 30, 79, 1);
 }
+
 
 .flex {
   display: flex;
